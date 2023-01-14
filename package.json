@@ -1,6 +1,6 @@
 {
   "name": "tailwind-theme-mirror",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Mirrors your Tailwind theme configuration for easier access throughout your project.",
   "main": "index.js",
   "type": "module",
