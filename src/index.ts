@@ -17,8 +17,8 @@ function validateConfigFile(): string {
     return cwd() + "/tailwind.config.cjs";
   }
 
-  if (projectDirectory.includes("tailwind.config.cjs")) {
-    return cwd() + "/tailwind.config.cjs";
+  if (projectDirectory.includes("tailwind.config.js")) {
+    return cwd() + "/tailwind.config.js";
   }
   throw new Error("No tailwind config file found.");
 }
