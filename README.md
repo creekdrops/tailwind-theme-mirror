@@ -22,7 +22,7 @@ Add the executable to any script within your package.json file alongside any oth
 
     //  or run it alongside other scripts
 
-    // "dev": "tailwind-theme-mirror --output ./src/lib && twmirror && vite dev"
+    // "dev": "tailwind-theme-mirror --output ./src/lib && vite dev"
   }
 }
 
