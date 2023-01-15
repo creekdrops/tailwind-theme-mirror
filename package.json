@@ -1,14 +1,13 @@
 {
   "name": "tailwind-theme-mirror",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Mirrors your Tailwind theme configuration for easier access throughout your project.",
   "main": "index.js",
-  "type": "module",
   "bin": "./index.js",
   "repository": "https://github.com/creekdrops/tailwind-theme-mirror",
   "scripts": {
     "build": "tsc && cp package.json package/package.json && cp README.md package/README.md",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test --require ts-node/register src/utils/* "
   },
   "keywords": [
     "tailwind",
@@ -22,6 +21,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
   }
 }
